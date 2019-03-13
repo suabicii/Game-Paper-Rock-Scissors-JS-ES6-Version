@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: roboto;
-    /* text-align: center; */
+    text-align: center;
 }
 
 .container {
@@ -17,7 +17,6 @@ section {
 }
 
 .welcome {
-    text-align: center;
     margin: 20px;
 }
 
@@ -42,7 +41,7 @@ section {
 
 .game,
 .stats {
-    margin: 20px;
+    margin: 10px;
 }
 
 p {
@@ -56,14 +55,24 @@ p span {
 
 footer {
     margin: 20px auto;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
 }
 
 @media(max-width: 768px) {
+    .container {
+        height: 120vh;
+    }
+
+    section {
+        flex: 50px;
+    }
+
     .buttons {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        flex-basis: 400px;
     }
 
     .buttons button {
