@@ -42,7 +42,7 @@ section {
 
 .game,
 .stats {
-    margin: 2vw;
+    margin: 20px;
 }
 
 p {
@@ -60,7 +60,7 @@ footer {
     text-align: center;
 }
 
-@media(max-width: 1024px) {
+@media(max-width: 768px) {
     .buttons {
         display: flex;
         flex-direction: column;
