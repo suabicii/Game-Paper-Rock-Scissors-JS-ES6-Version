@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic"
+        rel="stylesheet" />
+    <title>Kamień, papier, nożyce 2.0 by Suabicii</title>
+</head>
+
+<body>
+    <div class="container">
+        <section class="welcome">
+            <h1>Witamy w grze kamień, papier, nożyce</h1>
+            <h2>Proszę, wybierz:</h2>
+        </section>
+        <section class="buttons">
+            <button id="rock">Kamień <i class="far fa-hand-rock"></i></button>
+            <button id="paper">Papier <i class="far fa-hand-paper"></i></button>
+            <button id="scissors">Nożyce <i class="far fa-hand-scissors"></i></button>
+        </section>
+        <section class="game">
+            <p>Twój wybór: <span id="user-choice"></span></p>
+            <p>Wybór komputera: <span id="ai-choice"></span></p>
+            <p>Zwycięzca: <span id="winner"></span></p>
+        </section>
+        <section class="stats">
+            <p>Ilość gier: <span id="games">0</span></p>
+            <p>Ilość wygranych: <span id="wins">0</span></p>
+            <p>Ilość przegranych: <span id="losses">0</span></p>
+            <p>Ilość remisów: <span id="draws">0</span></p>
+        </section>
+    </div>
+    <footer>&#x24D2 Copyright 2019 Suabicii</footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
